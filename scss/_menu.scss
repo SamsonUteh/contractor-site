@@ -39,7 +39,7 @@
 
         &.open {
             transform: rotate(360deg);
-            background: transparent;
+            background: transparent; // This is for the middle line
 
             &::before {
                 transform: rotate(45deg) translate(5px, 8px);
